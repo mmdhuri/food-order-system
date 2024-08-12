@@ -2,7 +2,7 @@
 import { boot } from "quasar/wrappers";
 import axios from "axios";
 
-// Create an axios instance
+// Create an axios instance for
 const api = axios.create({
   baseURL: "https://food-api-backend.onrender.com", // Your API base URL
   timeout: 10000, // Optional: Request timeout
